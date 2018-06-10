@@ -15,7 +15,7 @@ var myApp = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.d
         $routeProvider.when('/', {templateUrl: 'partials/homeView.html', controller: 'HomeCtrl'});
         $routeProvider.when('/view1', {templateUrl: 'partials/forshell.html'});
         $routeProvider.when('/view2', {templateUrl: 'partials/Addition.html'});
-        $routeProvider.when('/view3', {templateUrl: 'partials/tftensor.html'});
+        $routeProvider.when('/view3', {templateUrl: 'partials/Division.html'});
         $routeProvider.when('/view4', {templateUrl: 'partials/variables.html'});
         $routeProvider.when('/view5', {templateUrl: 'partials/add.html'});
         $routeProvider.when('/view6', {templateUrl: 'partials/linear_regression.html'});
