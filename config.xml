@@ -32,7 +32,10 @@ xmlns:gap="http://phonegap.com/ns/1.0"
     <preference name="android-build-tool" value="gradle" /> 
    <!-- <gap:plugin name="cordova-plugin-admobpro" source="npm" />
     -->
-		
+	<gap:plugin name="cordova-admob-pro" spec="2.0.0" source="npm">
+  	    <variable name="PLAY_SERVICES_VERSION" value="15.0.0" />
+	</plugin>
+	
    <!-- <gap:plugin name="cordova-plugin-whitelist" source="npm" />
     -->
 		<gap:plugin name="ionic-plugin-keyboard" source="npm"/>
