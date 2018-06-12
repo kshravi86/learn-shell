@@ -17,7 +17,7 @@ var myApp = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.d
         $routeProvider.when('/view2', {templateUrl: 'partials/Addition.html'});
         $routeProvider.when('/view3', {templateUrl: 'partials/Division.html'});
         $routeProvider.when('/view4', {templateUrl: 'partials/Binary2Decimal.html'});
-        $routeProvider.when('/view5', {templateUrl: 'partials/add.html'});
+        $routeProvider.when('/view5', {templateUrl: 'partials/diskspace.html'});
         $routeProvider.when('/view6', {templateUrl: 'partials/linear_regression.html'});
         $routeProvider.when('/view7', {templateUrl: 'partials/basics_operations.html'});
         $routeProvider.when('/view8', {templateUrl: 'partials/logistic_regression.html'});
